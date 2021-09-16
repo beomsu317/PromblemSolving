@@ -22,9 +22,7 @@ int main()
     for(int i=0;i<m;i++){
         int a,b,cost;
         std::cin >> a >> b >> cost;
-        // std::cout << "a: "<< a << ", b:" << b << ", cost: " << cost << "\n";
         dp[a][b] = std::min(dp[a][b], cost);
-        // std::cout << "a: "<< a<<", b: "<< b<<", cost: "<< dp[a][b] << "\n";
     }
 
     for(int k=1;k<=n;k++){
