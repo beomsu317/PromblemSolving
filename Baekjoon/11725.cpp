@@ -1,4 +1,3 @@
-// https://www.acmicpc.net/problem/11725
 #include <iostream>
 #include <string>
 #include <cstring>
